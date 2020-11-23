@@ -2,11 +2,11 @@
   "name": "@amazeelabs/gatsby-starter",
   "private": false,
   "description": "Gatsby starter for Amazee Labs projects",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "author": "Amazee Labs <developers@amazeelabs.com>",
   "dependencies": {
-    "@tailwindcss/typography": "^0.2.0",
-    "@tailwindcss/ui": "^0.6.2",
+    "@tailwindcss/typography": "^0.3.0",
+    "@tailwindcss/ui": "^0.7.0",
     "classnames": "^2.2.6",
     "dotenv": "^8.2.0",
     "gatsby": "^2.24.83",
@@ -16,12 +16,12 @@
   },
   "devDependencies": {
     "@amazeelabs/eslint-config-react": "^1.0.7",
-    "@amazeelabs/gatsby-theme-core": "^0.4.0",
+    "@amazeelabs/gatsby-theme-core": "^0.4.1",
     "@amazeelabs/jest-preset-react": "^1.1.1",
     "@amazeelabs/prettier-config": "^1.1.0",
-    "@graphql-codegen/cli": "1.17.10",
-    "@graphql-codegen/typescript": "1.17.10",
-    "@graphql-codegen/typescript-operations": "1.17.8",
+    "@graphql-codegen/cli": "1.19.2",
+    "@graphql-codegen/typescript": "1.17.11",
+    "@graphql-codegen/typescript-operations": "1.17.10",
     "@types/classnames": "^2.2.10",
     "@types/node": "^14.10.1",
     "eslint": "^7.9.0",
@@ -30,7 +30,7 @@
     "gatsby-source-filesystem": "^2.3.28",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0",
-    "prettier": "2.1.1",
+    "prettier": "2.2.0",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.2"
   },
@@ -64,5 +64,5 @@
   "bugs": {
     "url": "https://github.com/AmazeeLabs/silverback-mono/issues"
   },
-  "gitHead": "e4e26e9eceaf91d1bf333753fc4f41c23f7254fd"
+  "gitHead": "64efbda67021fd3e945f26613ed8fcef3c7e3039"
 }
