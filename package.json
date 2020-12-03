@@ -2,7 +2,7 @@
   "name": "@amazeelabs/gatsby-starter",
   "private": false,
   "description": "Gatsby starter for Amazee Labs projects",
-  "version": "0.6.16",
+  "version": "0.7.0",
   "author": "Amazee Labs <developers@amazeelabs.com>",
   "dependencies": {
     "@tailwindcss/typography": "^0.3.0",
@@ -16,13 +16,16 @@
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
-    "@amazeelabs/eslint-config-react": "^1.0.8",
-    "@amazeelabs/gatsby-theme-core": "^0.4.14",
-    "@amazeelabs/jest-preset-react": "^1.1.2",
+    "@amazeelabs/gatsby-theme-core": "^0.5.0",
+    "@amazeelabs/jest-preset": "^1.2.0",
     "@amazeelabs/prettier-config": "^1.1.0",
     "@graphql-codegen/cli": "^1.19.4",
     "@graphql-codegen/typescript": "^1.19.0",
     "@graphql-codegen/typescript-operations": "^1.17.12",
+    "@storybook/addon-actions": "^6.0.28",
+    "@storybook/addon-essentials": "^6.0.28",
+    "@storybook/addon-links": "^6.0.28",
+    "@storybook/react": "^6.0.28",
     "@types/classnames": "^2.2.10",
     "@types/node": "^14.10.1",
     "eslint": "^7.9.0",
@@ -47,7 +50,7 @@
     "clean": "gatsby clean",
     "update-schema": "GATSBY_UPDATE_SCHEMA_SNAPSHOT=true gatsby build",
     "codegen": "graphql-codegen --config codegen.yml",
-    "test:ci": "jest",
+    "test:ci": "yarn codegen && tsc --noEmit && jest",
     "test:watch": "jest --watch",
     "test": "is-ci test:ci test:watch",
     "storybook": "start-storybook -p 6006",
@@ -66,5 +69,5 @@
   "bugs": {
     "url": "https://github.com/AmazeeLabs/silverback-mono/issues"
   },
-  "gitHead": "7440e926faa0a88e9625f9bd0ffd46f39fc24ee7"
+  "gitHead": "280868762e23b8a9c749fb4aa715bdc2519e9cc7"
 }
