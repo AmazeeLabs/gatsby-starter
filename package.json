@@ -2,10 +2,10 @@
   "name": "@amazeelabs/gatsby-starter",
   "private": false,
   "description": "Gatsby starter for Amazee Labs projects",
-  "version": "0.7.60",
+  "version": "0.7.61",
   "author": "Amazee Labs <developers@amazeelabs.com>",
   "dependencies": {
-    "dotenv": "^10.0.0",
+    "dotenv": "^14.2.0",
     "gatsby": "^4.7.1",
     "gatsby-plugin-schema-export": "^1.1.11",
     "react": "^17.0.2",
@@ -63,5 +63,5 @@
   "bugs": {
     "url": "https://github.com/AmazeeLabs/silverback-mono/issues"
   },
-  "gitHead": "b3f439eb8c3a680d3297bd1f53fcb8d04b0cabdc"
+  "gitHead": "168a5890943623850cc44d4253ade1b41373e577"
 }
