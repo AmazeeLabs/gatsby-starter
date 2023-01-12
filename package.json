@@ -2,31 +2,31 @@
   "name": "@amazeelabs/gatsby-starter",
   "private": false,
   "description": "Gatsby starter for Amazee Labs projects",
-  "version": "0.7.91",
+  "version": "0.7.92",
   "author": "Amazee Labs <developers@amazeelabs.com>",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "gatsby": "^5.3.3",
+    "gatsby": "^5.4.0",
     "gatsby-plugin-schema-export": "^1.1.30",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@amazeelabs/eslint-config": "^1.4.38",
-    "@amazeelabs/jest-preset": "^1.3.41",
+    "@amazeelabs/eslint-config": "^1.4.39",
+    "@amazeelabs/jest-preset": "^1.3.42",
     "@amazeelabs/prettier-config": "^1.1.1",
-    "@graphql-codegen/cli": "2.16.3",
+    "@graphql-codegen/cli": "2.16.4",
     "@graphql-codegen/typescript": "2.8.7",
     "@graphql-codegen/typescript-operations": "2.5.12",
     "@types/classnames": "2.3.1",
     "@types/jest": "29.2.5",
     "@types/node": "16.18.11",
     "eslint": "8.31.0",
-    "gatsby-source-filesystem": "5.3.1",
+    "gatsby-source-filesystem": "5.4.0",
     "husky": "8.0.3",
     "jest": "29.3.1",
     "lint-staged": "13.1.0",
-    "prettier": "2.8.1",
+    "prettier": "2.8.2",
     "ts-node": "10.9.1",
     "typescript": "4.9.4"
   },
@@ -63,5 +63,5 @@
   "bugs": {
     "url": "https://github.com/AmazeeLabs/silverback-mono/issues"
   },
-  "gitHead": "b352ee09b7a6570fc1804f507e20ac9291ec8675"
+  "gitHead": "f7779b17fc3a41bebc731feaf01845a5955f22ea"
 }
