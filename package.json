@@ -2,18 +2,18 @@
   "name": "@amazeelabs/gatsby-starter",
   "private": false,
   "description": "Gatsby starter for Amazee Labs projects",
-  "version": "0.7.92",
+  "version": "0.7.93",
   "author": "Amazee Labs <developers@amazeelabs.com>",
   "dependencies": {
     "dotenv": "^16.0.3",
     "gatsby": "^5.4.0",
-    "gatsby-plugin-schema-export": "^1.1.30",
+    "gatsby-plugin-schema-export": "^1.1.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@amazeelabs/eslint-config": "^1.4.39",
-    "@amazeelabs/jest-preset": "^1.3.42",
+    "@amazeelabs/jest-preset": "^1.3.43",
     "@amazeelabs/prettier-config": "^1.1.1",
     "@graphql-codegen/cli": "2.16.4",
     "@graphql-codegen/typescript": "2.8.7",
@@ -35,19 +35,14 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "update-schema": "GATSBY_UPDATE_SCHEMA_SNAPSHOT=true gatsby build",
     "codegen": "graphql-codegen --config codegen.yml",
-    "prepare": "yarn codegen",
+    "build": "pnpm codegen",
     "precommit": "lint-staged",
-    "test": "yarn test:static && yarn test:unit && yarn test:integration",
     "watch": "jest --watch",
-    "test:static": "tsc --noEmit && eslint \"**/*.{ts,tsx,js,jsx}\" --ignore-path=\"./.gitignore\" --fix",
-    "test:unit": "jest --passWithNoTests",
-    "test:integration": "if [ -f test.sh ]; then ./test.sh; fi",
     "test:watch": "jest --watch"
   },
   "publishConfig": {
@@ -63,5 +58,5 @@
   "bugs": {
     "url": "https://github.com/AmazeeLabs/silverback-mono/issues"
   },
-  "gitHead": "f7779b17fc3a41bebc731feaf01845a5955f22ea"
+  "gitHead": "25745a3ba09fbccfcd4f92111dd73367143e2a00"
 }
